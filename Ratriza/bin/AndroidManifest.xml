@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ratriza"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.ratriza.Tela01"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.ratriza.Tela02"
+            android:label="@string/title_activity_tela02" >
+        </activity>
+        <activity
+            android:name="com.example.ratriza.Tela03"
+            android:label="@string/title_activity_tela03" >
+        </activity>
+        <activity
+            android:name="com.example.ratriza.Tela04"
+            android:label="@string/title_activity_tela04" >
+        </activity>
+        <activity
+            android:name="com.example.ratriza.Tela05"
+            android:label="@string/title_activity_tela05" >
+        </activity>
+        <activity
+            android:name="com.example.ratriza.Tela06"
+            android:label="@string/title_activity_tela06" >
+        </activity>
+        <activity
+            android:name="com.example.ratriza.Tela07"
+            android:label="@string/title_activity_tela07" >
+        </activity>
+    </application>
+
+</manifest>
